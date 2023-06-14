@@ -12,34 +12,36 @@
 
 <body>
     <header>
-        <h1>Pra onde você quer ir?</h1>
+        <h1>Pra onde você deseja ir?</h1>
     </header>
     <ul class="slide">
-        <li>
+        <li id="sao_paulo">
             <input type="radio" id="slide1" name="slide" checked>
             <label for="slide1">
-                <img class="seta_direita" src="./img/seta-direita.png" alt="Setas para avançar no slide a direita">
-                <img class="seta_esquerda" src="./img/seta-esquerda.png" alt="Setas para avançar no slide a esquerda">
+                <img class="seta_direita" onclick="setaDireita()" src="./img/seta-direita.png" alt="Setas para avançar no slide a direita">
+                <img class="seta_esquerda" onclick="setaEsquerda()" src="./img/seta-esquerda.png" alt="Setas para avançar no slide a esquerda">
             </label>
-            <img src="./img/sao-paulo.jpg" alt="Imagem da cidade de São Paulo">
+            <img  class="img" src="./img/sao-paulo.jpg" alt="Imagem da cidade de São Paulo">
             <p class="cidades">São Paulo-SP</p>
         </li>
-        <li>
+
+        <li id="salvador">
             <input type="radio" id="slide2" name="slide">
             <label for="slide2">
-                <img class="seta_direita" src="./img/seta-direita.png" alt="Setas para avançar no slide a direita">
-                <img class="seta_esquerda" src="./img/seta-esquerda.png" alt="Setas para avançar no slide a esquerda">
+                <img class="seta_direita" onclick="setaDireita()" src="./img/seta-direita.png" alt="Setas para avançar no slide a direita">
+                <img class="seta_esquerda" onclick="setaEsquerda()" src="./img/seta-esquerda.png" alt="Setas para avançar no slide a esquerda">
             </label>
-            <img src="./img/salvador.jpg" alt="Imagem da cidade de Salvador">
+            <img class="img" src="./img/salvador.jpg" alt="Imagem da cidade de Salvador">
             <p class="cidades">Salvador-BA/p>
         </li>
-        <li>
+
+        <li id="rio_de_janeiro">
             <input type="radio" id="slide3" name="slide">
             <label for="slide3">
-                <img class="seta_direita" src="./img/seta-direita.png" alt="Setas para avançar no slide a direita">
-                <img class="seta_esquerda" src="./img/seta-esquerda.png" alt="Setas para avançar no slide a esquerda">
+                <img class="seta_direita" onclick="setaDireita()" src="./img/seta-direita.png" alt="Setas para avançar no slide a direita">
+                <img class="seta_esquerda" onclick="setaEsquerda()" src="./img/seta-esquerda.png" alt="Setas para avançar no slide a esquerda">
             </label>
-            <img src="./img/rio-de-janeiro.jpg" alt="Imagem da cidade de Rio de Janeiro">
+            <img  class="img" src="./img/rio-de-janeiro.jpg" alt="Imagem da cidade de Rio de Janeiro">
             <p class="cidades">Rio de Janeiro-RJ</p>
         </li>
     </ul>
