@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.1em;
+}
+
+.slide {
+    display: block;
+    position: relative;
+}
+
+.slide li {
+    list-style: none;
+    position: absolute;
+}
+
+.slide input {
+    display: none;
+}
+
+.seta_direita {
+    position: absolute;
+    width: 2.2em;
+    transform: translate(2100%, 700%);
+}
+
+.seta_esquerda {
+    position: absolute;
+    width: 2.2em;
+    transform: translate(100%, 700%);
+}
+
+.seta_direita:hover,
+.seta_esquerda:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}   

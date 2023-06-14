@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,39 @@
     <link rel="stylesheet" href="style.css">
     <title>Slide-Show</title>
 </head>
+
 <body>
-    <h1>Pra onde você quer ir viajar?</h1>
-    <main>
-        <img src="./img/sao-paulo.jpg" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </main>
+    <header>
+        <h1>Pra onde você quer ir viajar?</h1>
+    </header>
+    <ul class="slide">
+        <li>
+            <input type="radio" id="slide1" name="slide" checked>
+            <label for="slide1">
+                <img class="seta_direita" src="./img/seta-direita.png" alt="Setas para avançar no slide a direita">
+                <img class="seta_esquerda" src="./img/seta-esquerda.png" alt="Setas para avançar no slide a esquerda">
+            </label>
+            <img src="./img/sao-paulo.jpg" alt="Imagem da cidade de São Paulo">
+        </li>
+        <li>
+            <input type="radio" id="slide2" name="slide">
+            <label for="slide2">
+                <img class="seta_direita" src="./img/seta-direita.png" alt="Setas para avançar no slide a direita">
+                <img class="seta_esquerda" src="./img/seta-esquerda.png" alt="Setas para avançar no slide a esquerda">
+            </label>
+            <img src="./img/salvador.jpg" alt="Imagem da cidade de Salvador">
+        </li>
+        <li>
+            <input type="radio" id="slide3" name="slide">
+            <label for="slide3">
+                <img class="seta_direita" src="./img/seta-direita.png" alt="Setas para avançar no slide a direita">
+                <img class="seta_esquerda" src="./img/seta-esquerda.png" alt="Setas para avançar no slide a esquerda">
+            </label>
+            <img src="./img/rio-de-janeiro.jpg" alt="Imagem da cidade de Rio de Janeiro">
+        </li>
+    </ul>
+
     <script src="./js.js"></script>
 </body>
+
 </html>
